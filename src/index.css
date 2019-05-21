@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+#root {
+    background-color: #001991;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+img {
+    animation: jump-img 1s linear 1s infinite alternate;
+}
+
+.text {
+    font-family: monospace;
+}
+
+@keyframes jump-img {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
