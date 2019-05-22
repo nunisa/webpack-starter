@@ -19,5 +19,5 @@ rootDiv.appendChild(imgDiv);
 
 const textDiv = document.createElement('div');
 textDiv.setAttribute('class', 'text');
-textDiv.appendChild(document.createTextNode('React Starter'));
+textDiv.appendChild(document.createTextNode('Webpack Starter'));
 rootDiv.appendChild(textDiv);
