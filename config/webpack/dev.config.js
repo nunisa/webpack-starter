@@ -4,7 +4,7 @@ const commonConfig = require('./common.config');
 
 const { DIRS, common } = commonConfig;
 const { DIST_DIR } = DIRS;
-const PORT = 9091;
+const PORT = 9090;
 
 module.exports = merge.smart(common, {
     mode: 'development',
