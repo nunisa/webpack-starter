@@ -14,7 +14,7 @@
 }
 
 #root {
-    background-color: #001991;
+    background-color: #1991ff;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -27,6 +27,11 @@
 
 img {
     animation: jump-img 1s linear 1s infinite alternate;
+}
+
+img:hover {
+    background-image: linear-gradient(to top, #ffffff, #fff600);
+    border-radius: 50%;
 }
 
 .text {

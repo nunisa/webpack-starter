@@ -26,8 +26,11 @@
   "homepage": "https://github.com/nunisa/webpack-starter#readme",
   "devDependencies": {
     "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.4.4",
     "babel-loader": "^8.0.6",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.1",
     "csv-loader": "^3.0.2",
