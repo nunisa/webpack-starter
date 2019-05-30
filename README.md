@@ -15,6 +15,9 @@ After cloning the repo, do the following
 3. Run production build
 
     `npm run build`
+4. Run jest tests
+
+    `npm test`
 
 ### Issues ###
 For any issue, raise it in [issue tracker](https://github.com/nunisa/webpack-starter/issues).
